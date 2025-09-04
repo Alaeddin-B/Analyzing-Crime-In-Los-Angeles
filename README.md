@@ -38,21 +38,17 @@ This project explores crime data from Los Angeles, aiming to uncover patterns an
 - Grouped and stacked bar plots for categorical comparisons
 - Use of markdown for storytelling and insight communication
 
-## Insights & Recommendations
-- Certain hours and areas have significantly higher crime rates, suggesting targeted patrols.
-- Nighttime crimes are concentrated in specific neighborhoods.
-- Some age groups and demographic segments are more affected by particular crime types.
+## Key Insights
+- **Highest crime month:** June
+- **Highest crime hour:** 12:00 (noon), which is surprising as daytime has significantly more crimes than nighttime.
+- **Area with most crimes:** "Central" had the highest number of reported crimes.
+- **Most affected age group:** 26-34 year olds experienced the highest crime counts.
 
 ## How to Run
 1. Install required libraries:
    `pip install pandas numpy matplotlib seaborn`
 2. Place `crimes.csv` in the project directory.
 3. Open and run the notebook in Jupyter or VS Code.
-
-## Next Steps
-- Add interactive visualizations (Plotly, Folium) for deeper exploration.
-- Explore predictive modeling to forecast crime risk.
-- Integrate geospatial data for mapping crime locations.
 
 ## Author
 Alaeddin B.
